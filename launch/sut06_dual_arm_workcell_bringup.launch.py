@@ -33,6 +33,9 @@ def launch_setup():
             'left_rotation_r': str(left_rotation[0]),
             'left_rotation_p': str(left_rotation[1]),
             'left_rotation_y': str(left_rotation[2]),
+            'left_tool0_x': str(0.0),
+            'left_tool0_y': str(0.0),
+            'left_tool0_z': str(0.12),
             'right_robot_ip': right_robot_ip,
             'right_translation_x': str(right_translation[0]),
             'right_translation_y': str(right_translation[1]),
@@ -40,6 +43,9 @@ def launch_setup():
             'right_rotation_r': str(right_rotation[0]),
             'right_rotation_p': str(right_rotation[1]),
             'right_rotation_y': str(right_rotation[2]),
+            'right_tool0_x': str(0.0),
+            'right_tool0_y': str(-0.12),
+            'right_tool0_z': str(0.083),
             'use_fake_hardware': use_fake_hardware,
             'use_sim_time': use_sim_time,
         }.items()
@@ -57,12 +63,18 @@ def launch_setup():
             'left_rotation_r': str(left_rotation[0]),
             'left_rotation_p': str(left_rotation[1]),
             'left_rotation_y': str(left_rotation[2]),
+            'left_tool0_x': str(0.0),
+            'left_tool0_y': str(0.0),
+            'left_tool0_z': str(0.12),
             'right_translation_x': str(right_translation[0]),
             'right_translation_y': str(right_translation[1]),
             'right_translation_z': str(right_translation[2]),
             'right_rotation_r': str(right_rotation[0]),
             'right_rotation_p': str(right_rotation[1]),
             'right_rotation_y': str(right_rotation[2]),
+            'right_tool0_x': str(0.0),
+            'right_tool0_y': str(-0.12),
+            'right_tool0_z': str(0.083),
         }.items()
     )
 
