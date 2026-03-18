@@ -11,10 +11,10 @@ import os,math
 def launch_setup():
     left_robot_ip = LaunchConfiguration('left_robot_ip')
     left_translation = [0.0,0.797/2,0.0] # -0.797/2
-    left_rotation = [0.0,0.0,math.pi] # -pi/2
+    left_rotation = [0.0,0.0,math.pi]
     right_robot_ip = LaunchConfiguration('right_robot_ip')
     right_translation = [0.0,-0.797/2,0.0] # 0.797/2
-    right_rotation = [0.0,0.0,0.0] # pi/2
+    right_rotation = [0.0,0.0,0.0]
     use_fake_hardware = LaunchConfiguration('use_fake_hardware')
     use_sim_time = LaunchConfiguration('use_sim_time')
     
